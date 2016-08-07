@@ -1,6 +1,6 @@
 {
   "name": "isolated-scroll",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Prevent scoll events from bubbling up to parent elements",
   "main": "lib/index.js",
   "scripts": {
