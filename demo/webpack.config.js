@@ -11,6 +11,10 @@ module.exports = {
   module: {
     loaders: [
       {
+        test: /\.html$/,
+        loader: 'file?name=[name].[ext]'
+      },
+      {
         test: /\.js$/,
         loader: 'babel'
       }

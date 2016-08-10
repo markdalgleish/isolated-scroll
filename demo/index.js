@@ -1,3 +1,5 @@
+require('./index.html');
+
 import isolatedScroll from '../src';
 
 const el = document.getElementById('isolated-scroll');
