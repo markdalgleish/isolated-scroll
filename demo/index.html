@@ -1,9 +1,25 @@
+<style>
+  body {
+    font-family: helvetica, arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .container {
+    border: 1px solid #888;
+    max-width: 400px;
+    height: 200px;
+    overflow: auto;
+  }
+</style>
+
 <div style="height: 9999px">
   <h1>isolated-scroll demo</h1>
 
   <p>With isolated-scroll:</p>
 
-  <div id="isolated-scroll" style="border: 1px solid #888; width: 400px; height: 200px; overflow: auto">
+  <div id="isolated-scroll" class="container">
     <ul>
       <li>List item.</li>
       <li>List item.</li>
@@ -90,7 +106,7 @@
 
   <p>Without isolated-scroll:</p>
 
-  <div style="border: 1px solid #888; width: 400px; height: 200px; overflow: auto">
+  <div class="container">
     <ul>
       <li>List item.</li>
       <li>List item.</li>
