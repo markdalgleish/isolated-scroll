@@ -10,7 +10,7 @@
     "prepublish": "npm run build",
     "clean": "rm -rf demo/dist",
     "build": "npm run clean && webpack --config demo/webpack.config.js",
-    "deploy": "npm run build && gh-pages -d dist/demo"
+    "deploy": "npm run build && gh-pages -d demo/dist"
   },
   "repository": {
     "type": "git",
