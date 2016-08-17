@@ -1,6 +1,6 @@
 # isolated-scroll
 
-Prevent scroll events from bubbling up to parent elements.
+Prevent scroll events from bubbling up to parent elements — [View demo](https://markdalgleish.github.io/isolated-scroll).
 
 ```bash
 $ npm install --save isolated-scroll
@@ -20,7 +20,6 @@ unbindHandlers();
 
 ## Todo
 
-- Add demo.
 - Add tests.
 
 ## License
